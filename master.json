@@ -1,0 +1,233 @@
+{
+  "app_settings": {
+    "app_name": "Fanatik Play",
+    "version": "1.0",
+    "maintenance_mode": false
+  },
+  "categories": [
+    {
+      "id": "canli_mac",
+      "title": "Günün Maçları",
+      "type": "live_event",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/stadium.png",
+      "json_url": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/mac_listesi.json",
+      "is_active": true
+    },
+    {
+      "id": "spor_tv",
+      "title": "Spor Kanalları",
+      "type": "live_tv_channel",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/football.png",
+      "json_url": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/spor_kanallari.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Son Eklenenler",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/Son_Eklenenler.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Popülerler",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/Populer.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Aksiyon",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/aksiyon.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Animasyon",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/animasyon.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Belgesel",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/belgesel.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Bilim Kurgu",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/bilim-kurgu.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Dram",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/dram.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Fantastik",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/fantastik.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Gerilim",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/gerilim.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Gizem",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/gizem.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Komedi",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/komedi.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Korku",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/korku.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Macera",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/macera.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Müzik",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/muzik.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Romantik",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/romantik.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Savaş",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/savas.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Suç",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/suc.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Tarih",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/tarih.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "TV Filmi",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/tv-film.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Vahşi Batı",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/vahsi-bat.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Kemal Sunal",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/Kemal_Sunal.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Türk Yapımı",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/Turk_Yapimi.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Yüksek Puanlı",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/Yuksek_Puanli.json",
+      "is_active": true
+    },
+    {
+      "id": "film_vod",
+      "title": "Aile",
+      "type": "vod_movie",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Filmler@main/kategoriler/aile.json",
+      "is_active": true
+    },
+    {
+      "id": "dizi_vod",
+      "title": "Abc",
+      "type": "vod_series",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/movie.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Diziler@main/kategoriler/abc.json",
+      "is_active": true
+    },
+    {
+      "id": "dizi_vod",
+      "title": "Star Tv",
+      "type": "vod_series",
+      "icon": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/icons/series.png",
+      "json_url": "https://cdn.jsdelivr.net/gh/dizifun/Diziler@main/kategoriler/star-tv.json",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "eklentiler": [
+    {
+      "id": "sezonluk_dizi_1",
+      "isim": "Sezonluk Dizi",
+      "js_url": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/dizifilmjs/sezonlukdizi.js"
+    }
+  ],
+  "sibnet": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/sibnet.js",
+  "vidmoly": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/vidmoly.js",
+  "okru": "https://raw.githubusercontent.com/dizifun/Yeniapp/main/okru.js"
+}
