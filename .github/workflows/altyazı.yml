@@ -1,0 +1,48 @@
+name: Update Subtitles Direct
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *' # 6 saatte bir çalışır
+
+jobs:
+  update-subs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Yazma izni şart
+
+    steps:
+    - name: Repoyu Çek (Checkout)
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0 # Tüm geçmişi çek (Hataları önler)
+
+    - name: Python Kur
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Gerekli Kütüphaneyi Yükle
+      run: pip install requests
+
+    - name: Scripti Çalıştır
+      run: python update_subtitles.py
+
+    - name: Güvenli Kayıt ve Push (Manuel)
+      run: |
+        # 1. Kimlik Tanımla
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+        # 2. Değişiklikleri Ekle
+        git add filmler_tmdb.json
+        
+        # 3. Değişiklik Yoksa Dur, Varsa Commit Yap
+        # Eğer dosya değişmediyse hata vermeden çıkması için "|| echo" ekledik
+        git commit -m "Bot: Altyazı listesi güncellendi" || echo "Değişiklik yok, işlem atlanıyor."
+        
+        # 4. KRİTİK NOKTA: Sunucudaki son değişiklikleri al ve birleştir (Rebase)
+        git pull origin main --rebase
+        
+        # 5. Son olarak gönder
+        git push origin main
